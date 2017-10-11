@@ -99,3 +99,33 @@ a {
   display: block;
   padding-top: 10px;
 }
+
+#locations {
+  height: 500px;
+  background-image: url("../../resources/images/img-locations-background.jpg");
+  width: 1200px;
+  margin: 64px auto;
+  background-size: cover;
+  padding-top: 70px;
+}
+
+#locations h2{
+  background-color: transparent;
+}
+
+.location {
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+
+
+}
+
+.flex-container.locations {
+  justify-content: space-around;
+  background-color: transparent;
+}
+
+#contact {
+  
+}
