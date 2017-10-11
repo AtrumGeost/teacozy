@@ -16,6 +16,7 @@ header {
   position: fixed;
   background-color: black;
   z-index: 10;
+  margin-top: 0px;
 }
 
 header img {
@@ -127,5 +128,15 @@ a {
 }
 
 #contact {
-  
+  margin: 64px auto;
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+
+}
+
+footer h5 {
+  text-align: left;
 }
