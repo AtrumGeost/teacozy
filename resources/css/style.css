@@ -44,3 +44,33 @@ a {
   color: seashell;
   text-decoration: underline;
 }
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 79px;
+}
+
+.flex-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  width: 1200px;
+  background-color: black;
+  height: 150px;
+  align-items: center;
+  margin: auto;
+}
+
+#mision {
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+}
