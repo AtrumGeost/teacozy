@@ -72,5 +72,30 @@ a {
   background-image: url("../../resources/images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  margin: auto;
+  margin: 64px auto;
+}
+
+#store {
+  width: 1000px;
+  margin: 64px auto;
+}
+
+.flex-container.items{
+  width: 1000px;
+
+}
+
+.item{
+  margin: 15px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+
+}
+
+.item span {
+  display: block;
+  padding-top: 10px;
 }
