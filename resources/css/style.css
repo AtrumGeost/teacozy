@@ -16,7 +16,7 @@ header {
   position: fixed;
   background-color: black;
   z-index: 10;
-  margin-top: 0px;
+  margin: 0px;
 }
 
 header img {
@@ -51,7 +51,8 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 79px;
+  top: 69px;
+  margin: 0px;
 }
 
 .flex-container {
@@ -73,7 +74,7 @@ a {
   background-image: url("../../resources/images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
-  margin: 64px auto;
+  margin: 0px auto 64px auto;
 }
 
 #store {
