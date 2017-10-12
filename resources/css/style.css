@@ -79,7 +79,7 @@ a {
 
 #store {
   width: 1000px;
-  margin: 64px auto;
+  margin: 0px auto 64px auto;
 }
 
 .flex-container.items{
@@ -106,7 +106,7 @@ a {
   height: 500px;
   background-image: url("../../resources/images/img-locations-background.jpg");
   width: 1200px;
-  margin: 64px auto;
+  margin: 0px auto 10px auto;
   background-size: cover;
   padding-top: 70px;
 }
@@ -117,14 +117,15 @@ a {
 
 .location {
   width: 300px;
-  margin: 15px 40px;
+  padding: 10px;
+  margin: 5px 20px;
   opacity: 1;
 
 
 }
 
 .flex-container.locations {
-  justify-content: space-around;
+  justify-content: center;
   background-color: transparent;
 }
 
